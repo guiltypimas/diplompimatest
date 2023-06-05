@@ -1,0 +1,148 @@
+body {
+  background-color: #e9e5e5;
+  font-family: Alkatra, sans-serif;
+  margin-bottom: 20px;
+}
+
+@font-face {
+  font-family: raleway_f;
+  src: url(../fonts/raleway-regular.woff2);
+}
+@font-face {
+  font-family: raleway_f;
+  src: url(../fonts/raleway-black.woff2);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Alkatra", cursive;
+  font-weight: 400;
+  src: url(../fonts/Alkatra-Regular.ttf);
+}
+
+a {
+  color: black;
+  font-family: Alkatra, sans-serif;
+}
+a:hover {
+  color: grey;
+}
+p {
+  font-family: Alkatra, sans-serif;
+  font-size: 20px;
+}
+h1 {
+  font-family: Alkatra, sans-serif;
+}
+.text-align-justify {
+  text-align: justify;
+}
+.margin-blocks {
+  margin-top: 100px;
+}
+.quote {
+  margin-top: 30px;
+  font-family: "Alkatra", cursive;
+  font-weight: 900;
+}
+.dada {
+  list-style: circle;
+}
+/* ==================================================================== sections-main ============================================================== */
+.school-picture {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 100px;
+  font-weight: 900;
+  font-size: 24px;
+}
+.info-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 100px;
+}
+.image-person {
+  width: 700px;
+}
+
+/* ============================================= aboutme ================================================== */
+.text-indent {
+  text-indent: 40px; /* Отступ первой строки в пикселах */
+}
+.about-myself {
+  display: flex;
+}
+.image-person-about {
+  display: flex;
+  width: 500px;
+  border: 3px solid black;
+}
+/* ================================================ qualification ==================================================== */
+.qualification-block {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* flex-direction: column; */
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 100px;
+}
+.quote {
+  margin-top: 30px;
+  font-family: "Alkatra", cursive;
+}
+.asd:hover {
+  color: aqua;
+}
+/* ========================================================== footer ================================================= */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin-top: 600px;
+
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-text {
+  font-family: raleway_f, sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+@media (max-width: 1400px) {
+  .image-person-about {
+    width: 300px;
+  }
+}
+@media (max-width: 1200px) {
+  .text-person {
+    font-size: 20px;
+  }
+  .image-person {
+    width: auto;
+  }
+}
+@media (max-width: 992px) {
+  .text-person {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .text-person {
+    font-size: 10px;
+  }
+}
+@media (max-width: 520px) {
+  .text-person {
+    font-size: 8px;
+  }
+}

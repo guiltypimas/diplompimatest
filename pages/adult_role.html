@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Роль семьи в формировании личности</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler text-bg-light"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ссылка</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Портфолио
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./aboutme.html">О себе</a></li>
+                    <li><a class="dropdown-item" href="./education.html">Образование</a></li>
+                    <li>
+                      <a class="dropdown-item" href="./qualification.html">Повышение квалификации</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Документы
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Ученикам
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./student_o.html">Подготовка к ОГЭ</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Подготовка к ЕГЭ</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Выпадающий список
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск" />
+                <button class="btn btn-outline-success" type="submit">Поиск</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container margin-blocks border border-dark border-3 bg-white">
+      <div class="d-flex align-items-center justify-content-center flex-column mt-5 fs-4">
+        <img src="/images/family.jpg" alt="" />
+        <p class="m-5 fw-bold">Роль семьи в формировании личности</p>
+      </div>
+
+      <div class="text-indent fs-5">
+        <p>
+          С тех пор как существует семья, она играет важную роль в воспитании ребенка. Родителей издавна считают первыми
+          воспитателями своих детей. В семье человек пребывает постоянно, изо дня в день, она влияет на все стороны его
+          жизни.
+        </p>
+        <p>Роль семьи в жизни ребенка неизмеримо велика по своей важности. В семье должна проходить вся его жизнь.</p>
+
+        <p>
+          Ребенок, живя в семье, переживает всю гамму чувств и взаимоотношений в ней. Это ложится неизгладимой печатью
+          на его душу. Даже в самой «плохой» семье вырабатывается нечто, незаменимое для ребенка.
+        </p>
+        <p>
+          Ребенок изучает мир через семью, в свете семейных отношений. Семья является могучим воспитательным средством.
+        </p>
+        <p>Каковы же цели и задачи семьи?</p>
+        <p>
+          Ян Амос Каменский рассуждал: «Если родители научают своих детей есть, пить, ходить, говорить, украшаться
+          одеждами, то тем более они должны позаботиться о передаче детям мудрости». А в «мудрости» важнейшим является,
+          во-первых, познание действительного мира, во-вторых – «умение осторожно и разумно управлять самим собой».
+        </p>
+        <p>
+          Будущие родители, конечно же, задумываются о том, как лучше сформулировать для самих себя цели работы по
+          воспитанию своего ребенка….
+        </p>
+        <p>
+          Ответ так же прост, как и сложен: цель и мотив воспитания ребенка – это счастливая, полноценная, творческая,
+          полезная людям жизнь этого ребенка. На созидание такой жизни и должно быть направлено семейное воспитание.
+        </p>
+        <p>
+          В первый год жизни ребенка основная забота родителей заключается в том, чтобы создать нормальные условия для
+          физического развития, обеспечить режим питания и всей жизни, нормальные санитарно-гигиеничекие условия. В этот
+          период ребенок уже заявляет о своих потребностях, и по-своему выражает свои желания. Задача взрослых состоит в
+          том, чтобы научиться различать потребности и капризы, так как потребности должны удовлетворяться, а капризы
+          пресекаться. Таким образом, в семье ребенок получает свои первые нравственные уроки, без которых у него не
+          может быть выработана система нравственных привычек и понятий.
+        </p>
+        <p>
+          На втором году жизни ребенок начинает ходить, стремится все потрогать своими руками, достать недостижимое.
+          Воспитание в этот период должно строиться на разумном включении ребенка в разные виды деятельности, следует
+          ему все показывать, объяснять, учить наблюдать, вместе с ним играть, рассказывать и отвечать на вопросы. Но,
+          если его действия выходят за пределы дозволенного, надо приучить ребенка понимать и беспрекословно подчиняться
+          слову нельзя.
+        </p>
+        <p>
+          В дошкольном возрасте основным видом деятельности ребенка является игра. Ситуации для игр ребенок берет из
+          жизни. Мудрость родителей заключается в том, чтобы незаметно подсказывать малышу, как должен поступить в игре
+          герой. Тем самым они приучают его понимать, что хорошо, а что плохо, какие нравственные качества ценятся и
+          уважаются в обществе, а какие порицаются.
+        </p>
+        <p>
+          Школьное обучение потребует от ребенка сосредоточенности, усидчивости, прилежания. Поэтому важно еще в
+          дошкольном возрасте приучать ребенка к тщательности выполняемых поручений, учить его доводить начатое дело или
+          игру до конца, проявлять при этом упорство и настойчивость.
+        </p>
+        <p>
+          Большая роль отводиться семье в трудовом воспитании. Дети непосредственно вовлекаются в бытовой труд, учатся
+          обслуживать себя, выполнять посильные трудовые обязанности в помощь отцу, матери. От того, как будет
+          поставлено трудовое воспитание детей еще до школы, зависит их успех в учении.
+        </p>
+        <p>
+          Таким образом, можно сделать вывод, что семья – это первая школа общения ребенка. В семье ребенок учится
+          уважать старших, заботиться о престарелых и больных, оказывать посильную помощь друг другу. В общении с
+          близкими ребенку людьми, в совместном бытовом труде у него формируется чувство долга, взаимопомощи.
+        </p>
+        <h1 class="fw-bold">Каковы же условия успешного воспитания ребенка в семье?</h1>
+        <p>Важным условием успеха воспитания детей в семье, можно считать родительскую любовь.</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <p class="footer-text">
+          Все персональные данные размещены с согласия субъекта(ов) на обработку персональных данных<br />
+          Адрес школьного сайта: shebunino.ru<br />Телефон: 8(42436) 94- 423<br />Факс: 8(42436) 94- 423<br />E-mail:
+          nevgo.mbousoshsh@sakhalin.gov.ru
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

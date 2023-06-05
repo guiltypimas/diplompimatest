@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная Страница</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- ================================================== -->
+    <link rel="stylesheet" href="./css/popup_folder.css" />
+    <script src="./js/popap_folder.js" defer></script>
+    <!-- ================================================== -->
+
+    <!-- <script src="/js/classleader.js" defer></script> -->
+    <script src="./js/menu.js"></script>
+  </head>
+  <body>
+    <header class="header ">
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler text-bg-light"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active menu_data fs-4" aria-current="page" href="/index.html">Главная</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-dark my-3"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Портфолио
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./pages/aboutme.html">О себе</a></li>
+                    <li><a class="dropdown-item" href="./pages/education.html">Образование</a></li>
+                    <li>
+                      <a class="dropdown-item" href="./pages/qualification.html">Повышение квалификации</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item menu_data" href="./pages/student_o.html">Подготовка к ОГЭ</a>
+                </li>
+                <li>
+                  <a class="dropdown-item menu_data" href="./pages/student_e.html">Подготовка к ЕГЭ</a>
+                </li>
+                <li>
+                  <a class="dropdown-item menu_data" href="./pages/events.html">Конкурсы и олимпиады</a>
+                </li>
+                <li class="nav-item file_wrap"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+
+    <section
+      class="container bg-white d-flex align-items-center justify-content-center border border-dark border-3 margin-blocks"
+    >
+      <div class="d-flex flex-column flex-xl-row justify-content-center align-items-center">
+        <div class="image-person border border-white border-5">
+          <img src="./images/main-photo.jpg" alt="" />
+        </div>
+
+        <div class="p-5">
+          <p>
+            Рада приветствовать вас на сайте учителя математики МБОУ «СОШ № 37» г. Выборг Ленинградской области. Меня
+            зовут Пискаева Елена Юрьевна
+          </p>
+          <p>
+            Мое первое образование- инженер-кораблестроитель.Я закончила Санкт-Петербургский Морской технический
+            университет и аспирантуру на кафедре Конструкция судов этого же ВУЗа.
+          </p>
+          <p>Педагогическое образование я получила в РГПУ им. А. И. Герцена</p>
+          <p>Общий трудовой стаж работы – 26 лет</p>
+          <p>Педагогический стаж работы – 11 лет</p>
+          <p>Стаж в должности учителя математики – 8 лет</p>
+          <p>Квалификационная категория – первая</p>
+          <p>Я всегда ставлю перед собой и детьми высокие цели и смело иду к ним.</p>
+          <p>Моя мечта: Пусть каждый четвертый мой ученик будет стобалльником</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="school-picture">
+        <img src="./images/school.png" alt="" />
+        <h1 class="mt-3">МБОУ «СОШ № 37» г. Выборг</h1>
+      </div>
+      <div class="info-block">
+        <div class="text-indent m-5">
+          <p>
+            МБОУ "СОШ № 37" создает условия для реализации гражданами Российской Федерации гарантированного государством
+            права на получение общедоступного и бесплатного общего образования всех уровней, если образование данного
+            уровня гражданин получает впервые.
+          </p>
+          <p>
+            Предметом деятельности Учреждения является образовательная деятельность, которая включает в себя: -
+            реализацию общеобразовательных программ общего, основного общего и среднего общего образования
+          </p>
+          <p>Нормативный срок освоения программ:</p>
+          <p>- начальное общее образование – 4 года;</p>
+          <p>- основное общее образование – 5 лет;</p>
+          <p>- среднее образование – 2 года.</p>
+          <p>Обучение и воспитание обучающихся в Учреждении ведется на русском языке.</p>
+          <p>
+            Образование носит светский характер. В качестве родного языка из числа языков народов Российской Федерации,
+            изучается русский язык.
+          </p>
+        </div>
+      </div>
+    </section>
+
+      <div class="footer">
+        <p class="footer-text">
+          Все персональные данные размещены с согласия субъекта(ов) на обработку персональных данных<br />
+          Адрес школьного сайта: shebunino.ru<br />Телефон: 8(42436) 94- 423<br />Факс: 8(42436) 94- 423<br />E-mail:
+          nevgo.mbousoshsh@sakhalin.gov.ru
+        </p>
+      </div>
+    </div>
+
+
+    <img src="./images/icon/ada.png" class='w-25'alt="">
+  </body>
+</html>

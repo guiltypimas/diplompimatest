@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Подготовка к ЕГЭ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler text-bg-light"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ссылка</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Портфолио
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./aboutme.html">О себе</a></li>
+                    <li><a class="dropdown-item" href="./education.html">Образование</a></li>
+                    <li>
+                      <a class="dropdown-item" href="./qualification.html">Повышение квалификации</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Документы
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Ученикам
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./student_o.html">Подготовка к ОГЭ</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Подготовка к ЕГЭ</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Выпадающий список
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск" />
+                <button class="btn btn-outline-success" type="submit">Поиск</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container margin-blocks border border-dark border-3 bg-white">
+      <div class="d-flex align-items-center justify-content-center flex-column mt-5 fs-5">
+        <img src="/images/ege.png" alt="" />
+        <p class="quote">«Поистине серьезное стремление к какой-либо цели – половина успеха в ее достижении».</p>
+      </div>
+      <p class="quote text-end fs-4">Вильгельм Гумбольдт</p>
+
+      <div class="text-indent fs-5">
+        <h1 class="fw-bold">Подготовка к ЕГЭ</h1>
+        <p>
+          Единый государственный экзамен (ЕГЭ) – это централизованный экзамен, который проводится в учебных заведениях
+          среднего общего образования для оценки качества подготовки учащихся с помощью контрольных измерительных
+          материалов.
+        </p>
+        <p>
+          С 2009 года ЕГЭ является формой выпускных экзаменов в школе и одновременно основной формой вступительных
+          экзаменов в вузы.
+        </p>
+        <h1 class="fw-bold">Инструкция по выполнению работы</h1>
+        <p>На выполнение экзаменационной работы по русскому языку отводится 3,5 часа (210 минут).</p>
+        <p>
+          Экзаменационная работа ЕГЭ по русскому языку состоит из двух частей и включает в себя 27 заданий,
+          различающихся формой и уровнем сложности.
+        </p>
+        <p>Часть 1 содержит 26 заданий с кратким ответом.</p>
+        <p>В экзаменационной работе предложены следующие разновидности заданий с кратким ответом:</p>
+        <p>– задания на запись самостоятельно сформулированного правильного ответа;</p>
+        <p>– задания на выбор и запись одного или нескольких правильных ответов из предложенного перечня ответов.</p>
+        <p>
+          Ответ на задания части 1 даётся соответствующей записью в виде цифры (числа) или слова (нескольких слов),
+          последовательности цифр (чисел), записанных без пробелов, запятых и других дополнительных символов. Ответ
+          записывается в поле ответа в тексте работы, а затем переносится в бланк ответов №1.
+        </p>
+        <p>
+          Часть 2 содержит одно задание открытого типа с развёрнутым ответом (сочинение), проверяющее умение создавать
+          собственное высказывание на основе прочитанного текста. Это задание выполняется на бланке ответов №2
+        </p>
+        <p class="mt-5">
+          Все бланки ЕГЭ заполняются яркими черными чернилами. Допускается использование гелевой или капиллярной ручки.
+        </p>
+        <p>
+          При выполнении заданий можно пользоваться черновиком. Записи в черновике, а также в тексте контрольных
+          измерительных материалов не учитываются при оценивании работы.
+        </p>
+        <p>
+          Баллы, полученные Вами за выполненные задания, суммируются. Необходимо выполнить как можно больше заданий и
+          набрать наибольшее количество баллов.
+        </p>
+        <p>
+          После завершения работы убедитесь в том, что ответ на каждое задание в бланках ответов №1 и №2 записан под
+          правильным номером.
+        </p>
+        <br />
+        <p>
+          Помните, что добросовестная и систематическая подготовка обязательно даст отличный результат и создаст основу
+          для Ваших будущих успехов на ЕГЭ!
+        </p>
+      </div>
+    </section>
+    <section
+      class="container col-6 d-flex align-items-center flex-column margin-blocks border border-dark border-3 bg-white"
+    >
+      <p class="fs-5 m-4">Сайты для выполнения демонстрационных и тренировочных вариантов заданий:</p>
+      <div class="row">
+        <a href="https://fipi.ru/" class="col-6"><img src="/images/fipi-study.jpg" alt="" /></a>
+        <a href="https://rus-ege.sdamgia.ru/" class="col-6"><img src="/images/reshy_ege.png" alt="" /></a>
+      </div>
+      <div class="row">
+        <a href="https://rustutors.ru/" class="col-6"><img src="/images/rus_tutor.png" alt="" /></a>
+        <a href="https://vpr-ege.ru/" class="col-6"><img src="/images/vpr_ege.jpg" alt="" /></a>
+      </div>
+    </section>
+    <footer class="footer">
+      <div>
+        <p class="footer-text">
+          Все персональные данные размещены с согласия субъекта(ов) на обработку персональных данных<br />
+          Адрес школьного сайта: shebunino.ru<br />Телефон: 8(42436) 94- 423<br />Факс: 8(42436) 94- 423<br />E-mail:
+          nevgo.mbousoshsh@sakhalin.gov.ru
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

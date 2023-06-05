@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Трудный возраст или советы родителям</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler text-bg-light"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ссылка</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Портфолио
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./aboutme.html">О себе</a></li>
+                    <li><a class="dropdown-item" href="./education.html">Образование</a></li>
+                    <li>
+                      <a class="dropdown-item" href="./qualification.html">Повышение квалификации</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Документы
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Ученикам
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./student_o.html">Подготовка к ОГЭ</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Подготовка к ЕГЭ</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Выпадающий список
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск" />
+                <button class="btn btn-outline-success" type="submit">Поиск</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container margin-blocks border border-dark border-3 bg-white">
+      <div class="d-flex align-items-center justify-content-center flex-column mt-5 fs-4">
+        <img src="/images/family.jpg" alt="" />
+        <p class="m-5 fw-bold">Трудный возраст или советы родителям</p>
+      </div>
+      <h1 class="text-center fw-bold fs-4 mb-5">Подростку присуще:</h1>
+      <div class="text-indent fs-5">
+        <ul class="dada">
+          <li class="dada">
+            тяга к романтике и самоутверждению, выяснение своих возможностей и способностей иногда на грани риска;
+          </li>
+          <li>частая смена настроения, беспричинная обида, грусть, слёзы;</li>
+          <li>повышена эмоциональная реакция даже на незначительные события;</li>
+          <li>
+            стремление к установлению дружеских связей с ребятами своего или старшего возраста, вхождение в криминальные
+            группировки;
+          </li>
+          <li>отстаивание, иногда бессмысленное, своей позиции, в том числе и неверной;</li>
+          <li>
+            проявление критического отношения к ранее авторитетным взрослым, мнением которых пренебрегают в пользу
+            сверстников;
+          </li>
+          <li>
+            демонстративно пренебрежительное или снисходительное отношение к младшим, а также представителям
+            противоположного пола, что является признаком пробуждения интереса.
+          </li>
+        </ul>
+        <h1 class="fw-bold fs-4 text-center m-5">Как стать идеальным родителем подростка</h1>
+        <p>
+          Жизнь в семье с подростком похожа на парный танец со сменой ролей. Вы выступаете то в роли ведущего, то в роли
+          ведомого, то в роли авторитета, то в роли «чайника», ничего не понимающего в современной молодёжной
+          субкультуре. Причём роли эти – не маски (главное – ничего не «играть»), а реальная готовность родителя
+          адаптироваться к постоянно меняющейся ситуации и настроению, гибкая позиция по отношению к мнениям и взглядам
+          собственного ребёнка и уважение к ДРУГОЙ отдельной личности.
+        </p>
+        <p>
+          Вам придётся признать, что период «непререкаемого авторитета родителей» больше никогда не вернётся, поэтому
+          перестаньте командовать и руководить. Это – абсолютно проигрышная стратегия взаимоотношений с любым
+          подростком. Попытайтесь заново «заслужить» былой авторитет. На этом пути необходимо руководствоваться тем, что
+          ребёнок больше не верит абстрактным словам и декларациям, он АНАЛИЗИРУЕТ ваши действия, стратегии, статус.
+        </p>
+
+        <p>
+          Попробуйте не только слушать ребёнка, но и наблюдать за его реакциями. Подчас его поза, жесты и мимика лучше
+          говорят о его состоянии, чем привычный вербальный (словесный) подростковый протест. Задавайте себе вопрос:
+          «ПОЧЕМУ он так неадекватно реагирует?», «Что я могу сделать, чтобы сгладить противостояние?». Поверьте, он не
+          хочет бороться, он хочет разобраться и приглашает Вас последовать за ним.
+        </p>
+        <p>
+          Не планируйте конкретного результата «воспитательного воздействия», и не зацикливайтесь на нём. Он всё равно
+          будет другим. Ведь это ПАРНЫЙ танец взаимоотношений (см. п. 1). Вы задумывали одно, а получилось совсем другое
+          – радуйтесь. Ваш ребёнок избавил Вас ещё от одного стереотипа. Таким образом, он способствует вашему
+          личностному росту, провоцируя спонтанность реакции.
+        </p>
+        <p>
+          Помните, что одной из особенностей подросткового возраста является потребность в риске, порой не очень
+          оправданном, продиктованном желанием самоутвердиться. Если Вы ещё этому не научились, время пришло. Не бойтесь
+          рисковать вместе с ребёнком, но на своей территории. Чем более настойчивы и находчивы Вы будете в своём
+          желании опробовать НОВЫЕ способы взаимодействия с ребёнком, тем скорее Вы начнёте говорить с ним на одном
+          языке. Главное, сделать так, чтобы подросток не переставал удивляться вашей изобретательности.
+        </p>
+        <p>
+          Сохраняйте чувство юмора и пытайтесь передать ребёнку хотя бы небольшую часть своего оптимизма. Дело в том,
+          что все происходящие с ним изменения как физические, так и духовные, ваш подросток воспринимает очень
+          трагично. Если Вы сами тоже начинаете застревать на анализе и разборе детских проблем и перспектив их
+          разрешения, то ситуация дома становится похожей на непрерывное производственное совещание. Для того чтобы
+          лучше увидеть ситуацию, отстранитесь от неё и попробуйте посмотреть на неё с изрядной долей юмора. «Большое
+          видится на расстоянии», желательно с более лёгких и оптимистичных позиций. Не стоит шутить над эмоциями
+          подростка, гораздо эффективнее сыронизировать над самой ситуацией. Шутка поможет немножко разрядить
+          обстановку.
+        </p>
+        <p>
+          Старайтесь «фильтровать» информацию, поступающую к Вам из СМИ и литературы по проблемам подросткового
+          возраста. Во-первых, она сама далека от идеала в плане глубины анализа. Во-вторых, хорошим тоном публикаций
+          последних лет стали «страшилки». Поверьте, что далеко не всё, что Вы прочли, относится именно к вашему
+          ребёнку. Попробуйте, как бы, примерить прочитанное на него, и Вы увидите, что «костюмчик» не всегда приходится
+          впору. Далеко не все «ужастики», которые случаются с подростками, обязательно должно произойти с вашим
+          ребёнком.
+        </p>
+
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <p class="footer-text">
+          Все персональные данные размещены с согласия субъекта(ов) на обработку персональных данных<br />
+          Адрес школьного сайта: shebunino.ru<br />Телефон: 8(42436) 94- 423<br />Факс: 8(42436) 94- 423<br />E-mail:
+          nevgo.mbousoshsh@sakhalin.gov.ru
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
